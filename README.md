@@ -8,7 +8,7 @@ This is a simple RESTful API for managing inventory in a retail store. The API a
 ### Prerequisites
 - Python 3.x
 - SQLite3
-- `curl` or `Postman` for testing endpoints
+- `curl` or `Postman` or `Insomnia` for testing endpoints
 
 ### Installation and Setup
 
@@ -176,6 +176,25 @@ This is a simple RESTful API for managing inventory in a retail store. The API a
             }
         ]
      }
+     ```
+#### 7. **Create New Category**
+   - **Endpoint:** `/categories`
+   - **Method:** `POST`
+   - **Description:** Creates a new category.
+   - **Request Body Example:**
+     ```json
+     {
+        "name": "Electronics",
+     }  
+     ```
+   - **Response Example:**
+     ```json
+      {
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        }
+      }
      ```
 
 ## Debugging Part 
