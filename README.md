@@ -1,7 +1,7 @@
 # Inventory Management API
 
 ## Project Overview
-This is a simple RESTful API for managing inventory in a retail store. The API allows users to perform CRUD operations on products and categories. The project is built using pure Python with SQLite as the database and Docker for Containerization.
+This is a simple RESTful API for managing inventory in a retail store. The API allows users to perform CRUD operations on products and categories. The project is built using pure Python with SQLite as the database.
 
 ## Setup Instructions
 
